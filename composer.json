@@ -1,0 +1,25 @@
+{
+    "name": "jarivas/laravel-neo4j",
+    "version": "1.0.0",
+    "description": "Use neo4j in laravel",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+      {
+        "name": "Jose A Rivas",
+        "email": "joseantonio.rivasfernandez@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Rivas\\Neo4j": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Rivas\\Neo4j\\Tests\\": "tests/"
+      }
+    },
+    "config": {
+    }
+}
